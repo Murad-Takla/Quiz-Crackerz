@@ -8,7 +8,7 @@ import QuizType from '../components/QuizType/QuizType';
  
 
     return (
-        <div className='grid grid-cols-2'>
+        <div className='md:grid p-4 grid-cols-2'>
             {
                 quizs.map(quiz => <QuizType
                 key={quiz.id}

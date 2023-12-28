@@ -6,9 +6,9 @@ const QuizType = ({ quiz }) => {
     
     return (
         <div>
-            <div className="py-10">
+            <div className="py-10 ">
                 <div
-                    className="group relative  overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                    className=" group relative  overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
                     <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-sky-500 transition-all duration-400 group-hover:scale-[10]"></span>
                     <div className="relative z-10 mx-auto max-w-md ">
                         <span className="grid h-20 w-20 place-items-center rounded-full bg-sky-500 transition-all duration-300 group-hover:bg-sky-400">

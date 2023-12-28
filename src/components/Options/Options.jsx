@@ -8,11 +8,10 @@ const Options = ({ option , correctAnswer   }) => {
         <div className='flex py-2' >
 
            <p className='px-4 text-gray-500 font-semibold '> {option}</p>
-            <button className='border px-2 font-semibold rounded' 
-           
+            {/* <button className='border px-2 font-semibold rounded' 
             >
                 Submit
-            </button >
+            </button > */}
            
         </div>
     );
